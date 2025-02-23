@@ -1,1 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandip Dabhi</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <a id="scroll-to-top" href="#section1" class="scroll-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M12 2L0 12h7v10h10V12h7z"/>
+        </svg>
+    </a>
+
+    <header>
+        <div class="container">
+            
+            <nav>
+                <a href="/" class="logo"><i class="fab fa-node-js"></i> Sandip Dabhi</a>
+                <ul id="nav-list" class="nav-list" >
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-us">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#cer">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+             
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" >
+        <div id="particles-js"></div>
+        <div class="home-content">
+            <h1>Hi There, I'm <span>Sandip Dabhi</span></h1>
+            <p>I Am a <span id="typing"></span></p>
+            <a href="#about" class="btn">About Me</a>
+            <div class="socialss">
+                <a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/sandip-dabhi-09844a26a" target="_blank"><i class="fab fa-linkedin"></i></a> 
+                <a class="github" aria-label="GitHub" href="https://github.com/sandip-dabhi" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="twitter" aria-label="Twitter" href="https://x.com/SandipDabhi003" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="telegram" aria-label="Telegram" href="https://t.me/SANDIPDABHI003~" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+              
+            </div>
+        </div>
+        <div class="profile-pics tilt" data-tilt>
+            <img class="tilt" src="./img/profile-pic.png" style="width: 30em; height: 100%;" alt="nit">
+        </div>
+    </section>
+
+
+    <section id="about-us">
+        <div class="containers">
+            <div class="heading">
+                <h1><i class="fas fa-user"></i> About <span>Us</span></h1>
+            </div>
+            <div class="content">
+                <div class="profile-img">
+                    <img src="./img/profile-pic.png" alt="Profile Image">
+                </div>
+                <div class="profile-text">
+                    <h2>I'm Sandip Dabhi</h2>
+                    <p>I am a third-year B.Tech Information technology student at Marwadi University with a strong
+                        foundation in Information and technology. As a skilled Web developer, I build
+                        dynamic and responsive web applications. I am also passionate about Software Devlpoment, I am eager to
+                        contribute to innovative projects and collaborate with professionals in the tech industry. Let's
+                        connect and create something extraordinary together!
+
+                    </p>
+                    <ul class="details">
+                        <li><strong>Age:</strong> 20</li>
+                        <li><strong>College:</strong> Marwadi University</li>
+                        <li><strong>Email:</strong> <a href="mailto:sandipdabhi230105@gmail.com">sandipdabhi230105@gmail.com</a>
+                        </li>
+                        <li><strong>Place:</strong> Botad, Gujarat, India</li>
+                    </ul>
+                    <a href="./SandipResume.pdf" target="_blank"><button class="resume-btn">Resume</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="containere">
+            <div class="headings">
+                <h1><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h1>
+            </div>
+            <div class="skills-container">
+                <!-- Skill Items -->
+                <div class="skill">
+                    <div class="skill-info"> 
+                        <i class="fab fa-html5"></i> HTML <span class="percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%; background-color: #ff5733;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <i class="fab fa-css3-alt"></i> CSS <span class="percentage">78%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 78%; background-color: #264de4;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <i class="fab fa-js"></i> JavaScript <span class="percentage">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%; background-color: #f0db4f;"></div>
+                    </div>
+                </div>
+
+
+             
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <i class="fab fa-php"></i> PHP <span class="percentage">61%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 61%; background-color: #f29111;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <i class="fab fa-python"></i> Python <span class="percentage">68%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 68%; background-color: #61dafb;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <i class="fas fa-mug-hot"></i> java <span class="percentage">73%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 73%; background-color: #f34b7d;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <i class="fab fa-c"></i> C <span class="percentage">63%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 63%; background-color: #306998;"></div>
+                    </div>
+                </div>
+
+             
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <i class="fab fa-code"></i> C++ <span class="percentage">58%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 58%; background-color: #68a063;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <i class="fas fa-code-branch"></i> Git & GitHub <span class="percentage">71%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 71%; background-color: #f1502f;"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <i class="fas fa-database"></i> SQL <span class="percentage">78%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 78%; background-color: #00599c;"></div>
+                    </div>
+                </div>
+
+              
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="education">
+        <div class="containerd">
+            <div class="headinga">
+                <h1><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+                <p>Education Is Not The Learning Of Facts, But The Training Of The Mind To Think.</p>
+            </div>
+            <div class="education-container">
+                <div class="education-item">
+                    <img src="https://th.bing.com/th/id/OIP.E3q8o0XmohrDvMqoobSNBAAAAA?w=140&h=150&c=7&r=0&o=5&dpr=2.2&pid=1.7"
+                        alt="GTU Logo" class="edu-logo">
+                    <div class="education-info">
+                        <h2>Marwadi University</h2>
+                        <p>Bachelor Of Engineering In Information Technology</p>
+                        <p><a href="https://www.marwadiuniversity.ac.in/" target="_blank">Marwadi University (MU)</a></p>
+                        <p><span>2022-2026</span> | <span class="status">Pursuing</span></p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <img src="./img/school.jpg"
+                        alt="KVS Logo" class="edu-logo">
+                    <div class="education-info">
+                        <h2>Smt. R.A. Kalthiya Vidhya Bhavan </h2>
+                        <p>High School | Science</p>
+                        <p><a href="https://schools.org.in/botad/24280302705/smt-r-a-kalathiya-vidhyabhavan-guj.html" target="_blank">Smt. R.A. Kalthiya Vidhya Bhavan | GSEB</a></p>
+                        <p><span>2020-2022</span> | <span class="status completed">Completed</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<br>
+
+      
+      <section class="timeline" id="experience">
+        <div class="container-g">
+            <div class="heading-g">
+                <h1><i class="fas fa-laptop-code"></i> Experience</h1>
+            </div>
+        <ul>
+          <li>
+            <div>
+              <time>Web Devloper</time> 
+              BrainyBeam Technologies Pvt Ltd.
+              June,2024
+            </div>
+          </li>
+          <li>
+            <div>
+              <time>java Devloper</time>
+              TECHOCTANET SERVICES PVT LTD.
+              Aug,2024
+            </div>
+          </li>
+          <li>
+            <div>
+              <time>Frontend Devloper</time>
+              CodeAlpha
+              Sep,2024
+            </div>
+          </li>
+          <li>
+            <div>
+              <time>Python Devloper</time> 
+              CodeAlpha
+              Dec,2024
+            </div>
+          </li>
+          
+        </ul>
+      </section>
+   
+      <div class="container-f" id="cer">
+        <div class="heading-h">
+            <h1><i class="fas fa-laptop-code"></i> Certificate</h1>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="./img/c1.jpg" alt="Winner">
+                <h3>Hackout'24</h3>
+                <p>This hackathon is organized by DAIICT.</p>
+                <a href="./img/c1.jpg" target="_blank">
+                    <button style="margin-top: 0.5em;">View</button>
+                </a>
+            </div>
+            
+            <div class="card">
+                <img src="./img/c2.jpg" alt="Winner">
+                <h3>Web Horizons</h3>
+                <p>Coding Event Participate</p>
+                <a href="./img/c2.jpg" target="_blank">
+                    <button style="margin-top: 0.5em;">View</button>
+                </a>
+            </div>
+            
+            <div class="card">
+                <img src="./img/c3.jpeg" alt="Winner">
+                <h3>Hack The Mountains</h3>
+                <p>Participated in Hack The Mountains organized by Marwadi University.</p>
+                <a href="./img/c3.jpeg" target="_blank">
+                    <button style="margin-top: 0.5em;">View</button>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="contact-container" id="contact">
+        <h2>Get In <span class="highlight">Touch</span></h2>
+        <div class="color">
+
+
+            <div class="contact-form">
+                <div class="form-left">
+                    <img src="/img/contact1.png"
+                        alt="Customer Support" class="contact-image">
+                </div>
+                <div class="form-right">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name"><i class="fas fa-user"></i></label>
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email"><i class="fas fa-envelope"></i></label>
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone"><i class="fas fa-phone"></i></label>
+                            <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message"><i class="fas fa-comment-dots"></i></label>
+                            <textarea id="message" name="message" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Submit <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer" id="f">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Sandip's Portfolio</h3>
+                <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+                <p>Please wait for a while all major projects will be listed soon. Till then keep visiting. Connect with
+                    me over live chat!</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about-us">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li> 
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#cer">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Info</h3>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-envelope"></i> sandipdabhi230105@gmail.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Botad, Gujarat, India</li>
+                </ul>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/sandip-dabhi-09844a26a" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+                    <a href="https://github.com/sandip-dabhi" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+                    <a href="mailto:sandipdabhi970@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+                    <a href="https://x.com/SandipDabhi003" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+                    <a href="https://t.me/SANDIPDABHI003~" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Designed With <i class="fas fa-heart"></i> By Sandip Dabhi</p>
+        </div>
+    </footer>
+
+  
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Tilt.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <!-- Particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- stats.js lib -->
+
+    <!-- Custom script -->
+    <script src="stats.js"></script>
+    <script defer src="scripts.js"></script>
+</body>
+
+</html>
