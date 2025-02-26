@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const scrollButton = document.getElementById('scroll-to-top');
     const homeSection = document.getElementById('home');
-
-    // Show scroll-to-top button when user scrolls past the home section
     window.addEventListener('scroll', function() {
         if (window.scrollY > homeSection.offsetHeight / 2) {
             scrollButton.style.display = 'block';
@@ -20,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
 
 (function () {
     "use strict";
