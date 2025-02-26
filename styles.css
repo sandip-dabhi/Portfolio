@@ -1,19 +1,14 @@
-
 html * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, sans-serif;
     transition: background-color 0.3s, color 0.3s;
     background-color: #ffffff;
     color: #000000;
 }
-
-
-
 header {
     background: #fff;
     padding: 10px 0;
