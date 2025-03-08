@@ -8,8 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
             scrollButton.style.display = 'none';
         }
     });
-
-    // Smooth scroll to top when arrow is clicked
     scrollButton.addEventListener('click', function(e) {
         e.preventDefault();
         window.scrollTo({
