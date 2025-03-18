@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener("resize", callbackFunc); // Check on window resize
     window.addEventListener("scroll", callbackFunc); // Check on scroll
   })();
-  
+
 
 document.addEventListener('DOMContentLoaded', () => {
     const hamburger = document.getElementById('hamburger');
