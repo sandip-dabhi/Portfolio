@@ -33,8 +33,6 @@ document.addEventListener('DOMContentLoaded', function() {
         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
       );
     }
-  
-    // Callback function to check if elements are in view and add class
     function callbackFunc() {
       for (var i = 0; i < items.length; i++) {
         if (isElementInViewport(items[i])) {
