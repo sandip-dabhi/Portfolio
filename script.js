@@ -175,8 +175,6 @@ particlesJS('particles-js', {
     "retina_detect": true
 });
 
-
-    // Typing effect with typing and deleting
     const typingText = document.getElementById('typing');
     const textArray = ['Web Developer', 'Software Developer'];
     let textIndex = 0;
