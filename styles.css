@@ -575,13 +575,7 @@ nav ul li a:hover {
     }
 }
 
-
-
-/*experiance */
-
-  /* TIMELINE */
-  .timeline ul {
-   
+/*experiance */   
     padding: 50px 0;
   }
   .container-g{
@@ -1108,18 +1102,16 @@ h2 .highlight {
     text-align: center;
     line-height: 40px;
     font-size: 20px;
-    display: none; /* Initially hidden */
+    display: none; 
     transition: opacity 0.3s ease;
     opacity: 0.7;
-    z-index: 1000; /* Ensure it's above other content */
+    z-index: 1000; 
 }
 
 .scroll-to-top:hover {
     opacity: 1;
     background-color: #555;
 }
-
-
 ::-webkit-scrollbar {
     width: 12px; 
 }
@@ -1132,6 +1124,3 @@ h2 .highlight {
     background-color: #7f31fd; 
     border-radius: 6px; 
 }
-
-
-
