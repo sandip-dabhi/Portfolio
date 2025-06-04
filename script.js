@@ -41,9 +41,9 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
 
-    window.addEventListener("load", callbackFunc); // Check on initial load
-    window.addEventListener("resize", callbackFunc); // Check on window resize
-    window.addEventListener("scroll", callbackFunc); // Check on scroll
+    window.addEventListener("load", callbackFunc); 
+    window.addEventListener("resize", callbackFunc); 
+    window.addEventListener("scroll", callbackFunc);
   })();
 
 
